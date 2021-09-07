@@ -1,0 +1,12 @@
+<div class="conatainer-fluid">
+    <div class="row mt-2 ">
+        <div class="col-md-3 col-sm-12" *ngFor="let product of productList ">
+<div class="card-group shadow-lg mt-2">
+    <img class="card-img-top img-thumbnail"[src]="product.url">
+    <div class="card-footer">
+        <p class="card-text">{{product.title}}</p>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
